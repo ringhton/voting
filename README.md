@@ -14,6 +14,9 @@ Application uses MySQL and Redis as storage backends.
 #### Migration
 ```shell script
 $ php artisan migrate --force
+```
+Rollback failed migration:
+```
 $ php artisan migrate:rollback --force
 ```
 
