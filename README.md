@@ -43,3 +43,11 @@ $ php artisan polls:collect:status
 # Running unit tests
 $ php vendor/bin/phpunit -c phpunit.xml 
 ```
+
+### Помимо всего 
+* для nginx нужно будет в контейнере поменять пользователя на nginx у директории /var/www/html
+* выполнить 
+```
+$ nginx -s reload
+```
+* и выполнять запросы
