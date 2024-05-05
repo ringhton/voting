@@ -51,3 +51,8 @@ $ php vendor/bin/phpunit -c phpunit.xml
 $ nginx -s reload
 ```
 * и выполнять запросы
+
+* Для elastic/kibana_system на контейнере с elasticsearch можно переназначить пароль
+```
+$ ./bin/elasticsearch-reset-password --username <user>
+```
